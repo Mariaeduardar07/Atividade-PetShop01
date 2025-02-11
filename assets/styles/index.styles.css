@@ -48,7 +48,7 @@ section {
 }
 h2 {
     text-align: center;
-    color: #000;
+    color: #fff;
 }
 .container {
     display: flex;
@@ -100,20 +100,22 @@ h2 {
 /* SESSÃO DE PRODUTOS */
 
 .produto {
-    background-color: #ffacac;
+    background-color: #fffec2;
     color: #fff;
     padding: 2rem;
 }
 
+/* SESSÃO GALERIA */
+
+
 /* SESSÃO CONTATO */
 .contato {
-    background-color: #f8f8f8;
-    color: #000;
+    background-color: #e2fcf9;
     width: 100%;
 }
 
 .contato-container {
-    background-color: #f8f8f8;
+    background-color: #fff;
     max-width: 600px;
     margin: 3rem auto;
     padding: 2rem;
@@ -122,10 +124,9 @@ h2 {
     text-align: center;
 }
 
-h2 {
-    color: #da4e87;
-    margin-bottom: 1rem;
-}
+.contato-container h2 {
+        color: #000;
+    }
 
 .contato-form {
     display: flex;
@@ -150,19 +151,4 @@ input:focus, textarea:focus {
     outline: none;
     border-color: #da4e87;
     box-shadow: 0px 0px 5px rgba(218, 78, 135, 0.5);
-}
-
-.btn {
-    padding: 0.8rem;
-    background-color: #ce336f;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background-color: #da4e87;
 }
