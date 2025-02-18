@@ -42,7 +42,7 @@
               Oferecemos os melhores serviços e produtos para o bem-estar do seu
               animal de estimação.
             </p>
-            <a href="./pages/servicos.html" class="btn btn-outline-warning"
+            <a href="#servicos" class="btn btn-outline-warning"
               >Conheça Nossos Serviços</a
             >
           </div>
@@ -255,7 +255,7 @@
         <h2>Fale Conosco</h2>
         <p>Envie sua mensagem e retornaremos o mais breve possível.</p>
 
-        <form class="contato-form">
+        <div id="contatoForm" class="contato-form">
           <label for="nome">Nome:</label>
           <input
             type="text"
@@ -283,10 +283,13 @@
             required
           ></textarea>
 
-          <a href="./pages/servicos.html" class="btn btn-warning"
-            >Conheça Nossos Serviços</a
+          <button
+          type="button"
+          onclick="test()"
+          class="btn btn-outline-light"
           >
-        </form>
+          Enviar</button>
+        </div>
       </div>
     </section>
     <script
