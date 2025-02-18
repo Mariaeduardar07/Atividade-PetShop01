@@ -130,11 +130,17 @@ h2 {
     justify-content: center; /* Centraliza as imagens horizontalmente */
     align-items: center; /* Centraliza as imagens verticalmente */
     flex-direction: column;
+    transition: transform 0.3s ease; 
+}
+
+.img-container img:hover {
+    transform: translateY(-10px);
 }
 
 .img-container img {
-    width: 60%;
-    height: 18rem;
+    width: 14rem;
+    height: 14rem;
+    border: 5px solid #fff;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -181,4 +187,10 @@ input:focus, textarea:focus {
     outline: none;
     border-color: #615e5b;
     box-shadow: 0px 0px 5px rgba(109, 106, 104, 0.904)
+}
+
+@media (max-width: 768px) {
+    .img-top, .img-bottom {
+     flex-direction: column;
+    }
 }
